@@ -1,0 +1,93 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+.header {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 450px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.row {
+	position: relative;
+	width: 900px;
+
+}
+
+.title {
+	font-weight: bold;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.customList {
+	list-style-type: hiragana;
+	padding: 1px;
+}
+
+.explanation {
+	margin: 50px 30px 30px 40px;
+}
+
+.winsLosses {
+	position: absolute;
+	left: 800px;
+	width: 200px;
+	height: 430px;
+	background-color: yellow;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.gameExplanation {
+	position: absolute;
+	background-color: yellow;
+	width: 50%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.generatedNumber {
+	position: absolute;
+	left: 500px;
+	width: 200px;
+	background-color: yellow;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.yourScore {
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	width: 200px;
+	background-color: yellow;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.crystal1, .crystal2, .crystal3, .crystal4 {
+	position: absolute;
+	top: 600px;
+	float: left;
+}
+
+.crystal2 {
+	left: 200px;
+}
+
+.crystal3 {
+	left: 400px;
+}
+
+.crystal4 {
+	left: 600px;
+}
+
+.bluePurple, .lightBlue, .purple, .white {
+	margin: 30px;
+	width: 150px;
+	height: 150px;
+}
